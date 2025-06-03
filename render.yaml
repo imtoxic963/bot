@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: capital-doubler-bot
+    env: python
+    buildCommand: ""
+    startCommand: python capital_doubler_bot.py
+    plan: free
+    autoDeploy: true
